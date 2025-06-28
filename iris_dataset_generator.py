@@ -313,7 +313,7 @@ if __name__ == '__main__':
 
 
     # Generate full dataset and save to file
-    num_total_samples = 1000
+    num_total_samples = 10000  # Increased dataset size
     iris_conversations = generate_dataset(num_total_samples)
     output_filename = "iris_dataset.jsonl"
 
